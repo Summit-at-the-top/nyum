@@ -2,5 +2,4 @@
 {"title":"Crepes","description":"Pâte à crêpes basique","htmlfile":"crepes.html","size":"4 servings","time":"15 minutes"}
 ,{"title":"Cheesecake","source":"https://sallysbakingaddiction.com/no-bake-cheesecake/","description":"No bake cheesecake","htmlfile":"no_bake_cheesecake.html","size":"6-8 servings","time":"45 minutes"}
 ,{"title":"Riz au lait","source":"https://www.youtube.com/watch?v=czPV8PpyqvM","description":"Un riz au lait (avec banane caramélisée)","htmlfile":"riz_au_lait.html","size":"4 servings","time":"45 minutes"}
-,{"title":"Vegan Chocolate Cake","category":"Bakery","source":"https://www.chefkoch.de/rezepte/2874061439669102/Veganer-Schokokuchen.html","description":"A pretty basic, but vegan, chocolate cake, easily customizable with nuts (not bolts) or berries.","htmlfile":"test.html","vegan":"✓","size":"1 springform","time":"50 minutes"}
 ]
