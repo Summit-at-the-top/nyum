@@ -1,6 +1,8 @@
 ---
 title: Cookies à la Subway
 description: Fait maison > Okabé
+image: cookies_a_la_subway.jpg
+category: Dessert
 size: 16 Cookies énormes
 time: 30 minutes
 dessert: ✓
