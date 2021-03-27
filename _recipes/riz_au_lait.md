@@ -1,6 +1,7 @@
 ---
 title: Riz au lait
 description: Un riz au lait (avec banane caramélisée)
+category: Dessert
 size: 4 servings
 time: 45 minutes
 source: https://www.youtube.com/watch?v=czPV8PpyqvM

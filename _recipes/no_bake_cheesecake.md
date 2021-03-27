@@ -1,6 +1,7 @@
 ---
 title: Cheesecake
 description: No bake cheesecake
+category: Dessert
 size: 6-8 servings
 time: 45 minutes
 source: https://sallysbakingaddiction.com/no-bake-cheesecake/
