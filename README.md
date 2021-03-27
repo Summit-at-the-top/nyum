@@ -69,3 +69,17 @@ categories that should be used:
 - Plat
 - Pain
 - Dessert
+
+# Getting nyum's updates
+
+```sh
+git remote add base https://github.com/doersino/nyum
+git fetch base
+git rebase base/main
+```
+
+Then you need to fix the conflicts, and update our main:
+
+```
+git push --force-with-lease
+```
