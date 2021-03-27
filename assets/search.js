@@ -24,24 +24,16 @@ function search(query) {
     let results = [];
     searchIndex.forEach(e => {
         let score = 0;
-        if (matches(e.title, query)) {
-            score += 10;
-        }
-        if (matches(e["original_title"], query)) {
-            score += 6;
-        }
-        if (matches(e["description"], query)) {
-            score += 5;
-        }
-        if (matches(e["category"], query)) {
-            score += 3;
-        }
-        if (matches(e["author"], query)) {
-            score += 3;
-        }
-        if (matches(e["htmlfile"], query)) {
-            score += 1;
-        }
+        if (matches(e.title, query)) score += 20;
+        if (matches(e["original_title"], query)) score += 10;
+        if (matches(e["category"], query)) score += 5;
+        if (matches(e["author"], query)) score += 5;
+        if (matches(e["description"], query)) score += 2;
+        if (matches(e["htmlfile"], query)) score += 1;
+
+        // boost favories a little
+        if (score > 0 && e["favorite"]) score += 2;
+
         results.push({score: score, e: e});
     });
 
@@ -101,8 +93,10 @@ function highlightSearchSelection() {
 searchInput.addEventListener('keydown', e => {
     if (e.key == "ArrowUp") {
         searchSelection = Math.max(-1, searchSelection - 1);
+        e.preventDefault();
     } else if (e.key == "ArrowDown") {
         searchSelection = Math.min(searchResultsCount - 1, searchSelection + 1);
+        e.preventDefault();
     } else if (e.key == "Enter") {
         if (searchSelection != -1) {
             document.getElementById(`${searchSelection}`).click();
