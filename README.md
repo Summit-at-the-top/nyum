@@ -57,3 +57,15 @@ favorite: ✓
 > Garnish with the spring onion slices and serve.
 
 ```
+
+# Categories
+
+To organize the recipes we can use categories, to avoid it being a mess here are the different
+categories that should be used:
+
+- Apéro
+- Boisson
+- Entrée
+- Plat
+- Pain
+- Dessert
