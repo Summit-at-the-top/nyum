@@ -12,8 +12,8 @@ time: 5 minutes
 
 ---
 
-* `1 CàS débordante` vodka
-* `1 CàS débordante` Get 27
+* `1,25 CàS` vodka
+* `1,25 CàS` Get 27
 
 > Ajouter la vodka et le Get 27.
 
