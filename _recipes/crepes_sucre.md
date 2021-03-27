@@ -15,12 +15,3 @@ dessert: ✓
 * `25 ml` de rhum
 
 > Crêpes sucrées
-
----
-
-* `3` oeufs
-* `500 ml` lait
-* `250 g` farine
-* `100 g` beurre
-
-> Crêpes salées
