@@ -1,6 +1,6 @@
 [
 {"title":"Cookies à la Subway","category":"Dessert","dessert":"✓","image":"cookies_a_la_subway.jpg","description":"Fait maison &gt; Okabé","htmlfile":"cookies_a_la_subway.html","size":"16 Cookies énormes","time":"30 minutes"}
-,{"title":"Crepes","category":"Plat","dessert":"✓","description":"Pâte à crêpes basique","htmlfile":"crepes_salees.html","size":"4 servings","time":"15 minutes"}
+,{"title":"Crepes","category":"Plat","description":"Pâte à crêpes basique","htmlfile":"crepes_salees.html","size":"4 servings","time":"15 minutes"}
 ,{"title":"Crepes sucrées","category":"Dessert","dessert":"✓","description":"Pâte à crêpes basique","htmlfile":"crepes_sucre.html","size":"4 servings","time":"15 minutes"}
 ,{"title":"Diamant Vert","category":"Cocktail","description":"Pour être juste bien sans s’en rendre compte","htmlfile":"diamant_vert.html","size":"1 Portion","time":"5 minutes"}
 ,{"title":"Hard Lemonade","category":"Cocktail","description":"De la limonade pour les grands","htmlfile":"hard_lemonade.html","size":"1 Portion","time":"5 minutes"}
