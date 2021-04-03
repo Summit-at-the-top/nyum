@@ -25,10 +25,7 @@ jobs:
       - name: Create Recipe 🍲
         env:
           RECIPE: ${{ github.event.issue.body }}
-        run: |
-          pwd
-          ls
-          python3 save_recipe_from_env.py
+        run: python3 .github/save_recipe_from_env.py
       - name: Add & Commit & Push 📤
         uses: EndBug/add-and-commit@v7
         with:
@@ -41,4 +38,8 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
+          base: main
           branch: ${{ env.BRANCH_NAME }}
+          delete-branch: true
+          title: 'Add recipe: ${{ github.event.issue.title }}'
+          body: 'Closes #${{ github.event.issue.number }}'
