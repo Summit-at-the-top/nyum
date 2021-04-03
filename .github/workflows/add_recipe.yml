@@ -7,10 +7,11 @@ jobs:
   create-pr:
     if: github.event.label.name == 'recipe'
     runs-on: ubuntu-latest
-    env:
-      BRANCH_NAME: "$( echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '-')"
-      FILE_PATH: _recipes/"$( echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '_' ).md"
     steps:
+      - name: Create Environment Variables
+        run: |
+        echo "BRANCH_NAME=$( echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '-')" >> $GITHUB_ENV
+        echo "FILE_PATH=_recipes/$( echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '_' ).md" >> $GITHUB_ENV
       - name: Create branch 🌵
         uses: peterjgrainger/action-create-branch@v2.0.1
         env:
