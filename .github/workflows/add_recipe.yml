@@ -23,7 +23,9 @@ jobs:
         with:
           ref: ${{ env.BRANCH_NAME }}
       - name: Create Recipe 🍲
-        run: echo "'${{ github.event.issue.body }}'" > ${{ env.FILE_PATH }}
+        env:
+          RECIPE: ${{ github.event.issue.body }}
+        run: python3 save_recipe_from_env.py
       - name: Add & Commit & Push 📤
         uses: EndBug/add-and-commit@v7
         with:
