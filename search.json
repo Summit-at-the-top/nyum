@@ -7,6 +7,6 @@
 ,{"title":"Fajitas","category":"Plat","description":"fajitas rapides","htmlfile":"fajitas.html","size":"4 portions","time":"30 minutes"}
 ,{"title":"Hard Lemonade","category":"Cocktail","description":"De la limonade pour les grands","htmlfile":"hard_lemonade.html","size":"1 Portion","time":"5 minutes"}
 ,{"title":"Cheesecake","category":"Dessert","source":"https://sallysbakingaddiction.com/no-bake-cheesecake/","dessert":"✓","description":"No bake cheesecake","htmlfile":"no_bake_cheesecake.html","size":"6-8 servings","time":"45 minutes"}
-,{"htmlfile":"pizza_napoletana.html"}
+,{"title":"Pizza Napoletana","category":"Plat","description":"Pizza du Napoli Gang","htmlfile":"pizza_napoletana.html","size":"4 pizzas individuelles","time":"8 heures"}
 ,{"title":"Riz au lait","category":"Dessert","source":"https://www.youtube.com/watch?v=czPV8PpyqvM","dessert":"✓","description":"Un riz au lait (avec banane caramélisée)","htmlfile":"riz_au_lait.html","size":"4 servings","time":"45 minutes"}
 ]
