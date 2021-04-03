@@ -14,4 +14,3 @@ jobs:
           echo "Attempt 2: ${{github.event.label.name}}"
           echo "Issue title: ${{ github.event.issue.title }}"
           echo -e "Issue body\n${{ github.event.issue.body }}" > tmp.md
-          cat tmp.md
