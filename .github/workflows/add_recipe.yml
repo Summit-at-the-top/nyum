@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Create PR 🍕
         run: |
-          echo "Label name: ${{github.event.issue.label.name}}"
-          echo "Attempt 2: ${{github.event.label.name}}"
-          echo "Issue title: ${{ github.event.issue.title }}"
-          echo -e "Issue body\n${{ github.event.issue.body }}" > tmp.md
+          echo 'Label name: ${{github.event.issue.label.name}}'
+          echo 'Attempt 2: ${{github.event.label.name}}'
+          echo 'Issue title: ${{ github.event.issue.title }}'
+          echo -e 'Issue body\n${{ github.event.issue.body }}'
