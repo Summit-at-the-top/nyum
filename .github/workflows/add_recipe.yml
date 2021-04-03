@@ -8,7 +8,7 @@ jobs:
     if: github.event.label.name == 'recipe'
     runs-on: ubuntu-latest
     env:
-      BRANCH_NAME: echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '-'
+      BRANCH_NAME: "${ echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '-'}"
       FILE_PATH: _recipes/"${ echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '_' }.md"
     steps:
       - name: Create branch 🌵
