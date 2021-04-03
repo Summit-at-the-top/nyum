@@ -25,7 +25,10 @@ jobs:
       - name: Create Recipe 🍲
         env:
           RECIPE: ${{ github.event.issue.body }}
-        run: python3 save_recipe_from_env.py
+        run: |
+          pwd
+          ls
+          python3 save_recipe_from_env.py
       - name: Add & Commit & Push 📤
         uses: EndBug/add-and-commit@v7
         with:
