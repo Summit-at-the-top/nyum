@@ -5,7 +5,7 @@ on:
 
 jobs:
   create-pr:
-    # if: github.event.issue.label.name == 'recipe'
+    if: github.event.label.name == 'recipe'
     runs-on: ubuntu-latest
     steps:
       - name: Create PR 🍕
@@ -13,4 +13,5 @@ jobs:
           echo "Label name: ${{github.event.issue.label.name}}"
           echo "Attempt 2: ${{github.event.label.name}}"
           echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
+          echo -e "Issue body\n${{ github.event.issue.body }}" > tmp.md
+          cat tmp.md
