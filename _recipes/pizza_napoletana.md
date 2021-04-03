@@ -1,4 +1,4 @@
-'---
+---
 title: Pizza Napoletana
 description: Pizza du Napoli Gang
 category: Plat
@@ -6,10 +6,10 @@ size: 4 pizzas individuelles
 time: 8 heures
 ---
 
-*  farine
-*  eau
-*  levure de boulanger
-*  sel
+* `150 g` farine
+* `38 cl` eau
+* `10 g` levure de boulanger
+* `20 g` sel
 
 > Dans un grand saladier, mélanger l'eau et le sel. 
 >
@@ -21,7 +21,7 @@ time: 8 heures
 
 ---
 
-*  farine
+* `450 g` farine
 
 > Ajouter le reste de la farine par portion 150g.
 >
@@ -37,4 +37,4 @@ time: 8 heures
 
 ---
 
-> Garnir et faire cuire dans un four préchauffé à 200°C.'
+> Garnir et faire cuire dans un four préchauffé à 200°C.
