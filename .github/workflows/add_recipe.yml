@@ -26,14 +26,6 @@ jobs:
         env:
           RECIPE: ${{ github.event.issue.body }}
         run: python3 .github/save_recipe_from_env.py
-      - name: Add & Commit & Push 📤
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: Recipe Action
-          author_email: ci@summit.cooking
-          message: 'Add recipe: ${{ github.event.issue.title }}'
-          add: ${{ env.FILE_PATH }}
-          branch: ${{ env.BRANCH_NAME }}
       - name: Create PR ✨
         id: cpr
         uses: peter-evans/create-pull-request@v3
@@ -41,5 +33,6 @@ jobs:
           base: main
           branch: ${{ env.BRANCH_NAME }}
           delete-branch: true
+          commit-message: 'Add recipe: ${{ github.event.issue.title }}'
           title: 'Add recipe: ${{ github.event.issue.title }}'
           body: 'Closes #${{ github.event.issue.number }}'
