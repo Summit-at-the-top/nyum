@@ -4,6 +4,7 @@ description: Mascarpone Overdose
 category: Dessert
 size: 6
 time: no idea tbh
+dessert: ✓
 ---
 
 * `3` jaunes d'œufs
