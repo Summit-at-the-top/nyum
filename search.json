@@ -5,6 +5,7 @@
 ,{"title":"Crepes sucrées","category":"Dessert","dessert":"✓","description":"Pâte à crêpes basique","htmlfile":"crepes_sucre.html","size":"4 servings","time":"15 minutes"}
 ,{"title":"Diamant Vert","category":"Cocktail","description":"Pour être juste bien sans s’en rendre compte","htmlfile":"diamant_vert.html","size":"1 Portion","time":"5 minutes"}
 ,{"title":"Fajitas","category":"Plat","description":"fajitas rapides","htmlfile":"fajitas.html","size":"4 portions","time":"30 minutes"}
+,{"title":"Gratin dauphinois &amp; saucisse de porc poêlée","category":"Plat","source":"hellofresh","description":"Gratin dauphinois &amp; saucisse de porc poêlée","htmlfile":"gratin_dauphinois_et_saucisse_de_porc_poêlée.html","size":"4","time":"1 heure"}
 ,{"title":"Hard Lemonade","category":"Cocktail","description":"De la limonade pour les grands","htmlfile":"hard_lemonade.html","size":"1 Portion","time":"5 minutes"}
 ,{"title":"Cheesecake","category":"Dessert","source":"https://sallysbakingaddiction.com/no-bake-cheesecake/","dessert":"✓","description":"No bake cheesecake","htmlfile":"no_bake_cheesecake.html","size":"6-8 servings","time":"45 minutes"}
 ,{"title":"Pizza Napoletana","category":"Plat","description":"Pizza du Napoli Gang","htmlfile":"pizza_napoletana.html","size":"4 pizzas individuelles","time":"8 heures"}
