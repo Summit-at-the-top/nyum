@@ -20,6 +20,7 @@
 ,{"title":"Pizza Napoletana","category":"Plat","description":"Pizza du Napoli Gang","htmlfile":"pizza_napoletana.html","size":"4 pizzas individuelles","time":"8 heures"}
 ,{"title":"Riz au lait","category":"Dessert","source":"https://www.youtube.com/watch?v=czPV8PpyqvM","dessert":"✓","description":"Un riz au lait (avec banane caramélisée)","htmlfile":"riz_au_lait.html","size":"4 servings","time":"45 minutes"}
 ,{"title":"Soupe de nouilles soba aux champignons","category":"Plat","source":"hellofresh","description":"Soupe de nouilles soba aux champignons avec du miso blanc et des noix de cajou grillées","htmlfile":"soupe_de_nouilles_soba_aux_champignons.html","size":"4","time":"30 minutes"}
+,{"htmlfile":"tarte_fine_aux_tomates_cerises.html"}
 ,{"title":"Tiramisu","category":"Dessert","dessert":"✓","description":"Mascarpone Overdose","htmlfile":"tiramisu.html","size":"6","time":"no idea tbh"}
 ,{"title":"Tonkatsu (porc pané à la japonaise)","category":"Plat","source":"hellofresh","description":"Tonkatsu + salade","htmlfile":"tonkatsu.html","size":"4","time":"30 minutes"}
 ,{"title":"Wok de boulettes thai &amp; sauce cacahuètes","category":"Plat","source":"hellofresh","description":"Wok thai végé","htmlfile":"wok_de_boulettes_thai.html","size":"4","time":"30 minutes"}
