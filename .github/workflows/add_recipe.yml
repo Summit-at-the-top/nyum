@@ -13,7 +13,7 @@ jobs:
           echo "BRANCH_NAME=$( echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '-')" >> $GITHUB_ENV
           echo "FILE_PATH=_recipes/$( echo '${{ github.event.issue.title }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '_' ).md" >> $GITHUB_ENV
       - name: Create branch 🌵
-        uses: peterjgrainger/action-create-branch@v2.0.1
+        uses: peterjgrainger/action-create-branch@v3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -28,7 +28,7 @@ jobs:
         run: python3 .github/save_recipe_from_env.py
       - name: Create PR ✨
         id: cpr
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v6
         with:
           base: main
           branch: ${{ env.BRANCH_NAME }}
