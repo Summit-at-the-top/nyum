@@ -2,7 +2,7 @@
 
 A recipe collection using [nyum](https://github.com/doersino/nyum).
 
-You can find the website [here](https://summit.cooking/).
+You can find the website [here](https://cooking.sunbro.me/).
 
 # Formatting
 
